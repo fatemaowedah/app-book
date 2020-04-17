@@ -1,0 +1,42 @@
+.img{
+    width: 80%;
+    margin: auto;
+}
+img{
+    width: 50%;
+    box-sizing: border-box;
+    margin: 30px auto;
+    border: 10px solid white;
+}
+.title{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.authors{
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.description{
+    width: 80%;
+    margin: auto;
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.num{
+    font-size: 20px;
+    color: gray;
+}
+
+.hidden{
+    width: 40%;
+    height: 40px;
+    color: #fff;
+    background-color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+}

@@ -1,0 +1,140 @@
+/* @media (min-width: 481px) and (max-width: 767px) { */
+    /* header {
+        background-color: black;
+        color: white;
+    } */
+      
+    /* }
+  html{
+      background-color: black;
+  }
+  body {
+      max-width: 490px;
+      background-color: #a7a4a4;
+      margin: auto;
+      height: 100vh;
+  }
+  main {
+      background-color: #a7a4a4;
+      position: relative;
+  } */
+  body{
+    margin: 0 auto;
+    width: 960px;
+    height: 100vh;
+    background-color: #c5c5c5;
+}
+header{
+    margin: auto;
+    width: 960px;
+    height: auto;
+}
+nav{
+    width: 100%;
+    background-color: black;
+}
+ul{
+    width: 80%;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+ul li:hover{
+    background-color:black ;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.list{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: black;
+    text-align: right;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 60px;
+    display: none;
+
+}
+h1{
+    text-align: left;
+    font-size: 30px;
+    color: #fff;
+    background-color: black;
+    margin: auto;
+}
+main{
+    margin: auto;
+    width: 960px;
+    background-color: #c5c5c5;
+}
+.hTow{
+    background-color: hsl(240, 5%, 21%);
+    width: 100%;
+    height: 55px;
+    margin: 0px;
+    text-align: center;
+    margin: 0 auto;
+    opacity: .5;
+    line-height: 50px;
+}
+h2{
+    color: #fff;
+    font-size: 20px;
+}
+form{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.inputOne{
+    width: 50%;
+    height: 25px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+.inputTowFie{
+    width: 50%;
+    height: 25px;
+    border-radius: 10px;
+    margin: 10px auto;
+    text-align: left;
+    background-color: #7c7c7f;
+    cursor: pointer;
+}
+.label{
+    color: #fbfbfb;
+    padding: 0 15px;
+}
+button{
+    width: 50%;
+    height: 45px;
+    color: #fff;
+    background-color: black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #fff;
+    background-color: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    /* transition-delay: 1s; */
+}
+ol li{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: #e2e2e2;
+    margin-top: 31px;
+    box-shadow: 0 0 10px #929292, 0 0 40px #797979, 0 0 80px #737b82;
+    height: auto;
+    padding: 20px;
+}

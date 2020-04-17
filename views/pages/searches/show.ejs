@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include ('../../layout/head.ejs') %>
+</head>
+
+<body>
+    <header>
+        <%- include ('../../layout/header.ejs') %>
+    </header>
+    <main>
+    <% data.forEach((val,id) =>{ %>
+    <div>
+        <img class="img" src="<%= val.image %>">
+        <h2 class="title"><%= val.title %></h2>
+        <ul>
+            <%val.authors.forEach(value =>{%>
+            <li class="authors"><%= value %></li>
+            <%});%>
+        </ul>
+        <p class="description"><%= val.description %></p>
+        <button id="<%=id%>">select</button>
+    </div>
+    <form action="/" method="POST" id='form<%=id%>'>
+        <input type="text" name="image" value="<%= val.image %>">
+        <input type="text" name="title" value="<%= val.title %>">
+        <%val.authors.forEach(value =>{%>
+        <input type="text" name="authors" value="<%= value %>">
+        <%});%>
+        <input type="text" name="description" value="<%= val.description %>">
+        <input type="text" name="isbn" value="<%= val.isbn %>">
+        <input type="text" name="bookshelf">
+        <button type="submit">save</button>
+    </form>
+    <% }); %>
+</main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.slim.min.js"></script>
+    <script src="./../../../public/js/app.js"></script>
+</body>
+
+</html>
