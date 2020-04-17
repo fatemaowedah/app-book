@@ -10,24 +10,24 @@
         <%- include ('./layout/header.ejs') %>
     </header>
     <main>
-    <div>
-        <img src="<%= data.image %>">
-        <h2><%= data.title %></h2>
+    <div class='div'>
+        <img class="img" src="<%= data.image %>">
+        <h2 class="title"><%= data.title %></h2>
         <ul>
             <%data.authors.forEach(value =>{%>
-            <li><%= value %></li>
+            <li class="authors"><%= value %></li>
             <%});%>
         </ul>
-        <p><%= data.description %></p>
-        <p><%=data.isbn %></p>
-        <p><%= data.bookshelf %></p>
+        <p class="description"><%= data.description %></p>
+        <p class="isbn"><%=data.isbn %></p>
+        <p class="bookshelf"><%= data.bookshelf %></p>
 
-        <button id="update">update</button>
+        <button class='but2' id="update">update</button>
         <form action="/delete/<%=data.id%>?_method=delete" method="post">
             <button type="submit">Delete</button>
         </form>
     </div>
-    <form action="/update/<%=data.id%>?_method=put" method="POST">
+    <form class='ff' action="/update/<%=data.id%>?_method=put" method="POST">
         <input type="text" name="image" value="<%= data.image %>">
         <input type="text" name="title" value="<%= data.title %>">
         <%data.authors.forEach(value =>{%>

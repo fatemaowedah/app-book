@@ -1,27 +1,49 @@
 .img{
-    width: 80%;
-    margin: auto;
+    width: 25;
+    margin: 59px 28%;
 }
 img{
-    width: 50%;
+    width: 40%;
     box-sizing: border-box;
     margin: 30px auto;
     border: 10px solid white;
 }
 .title{
-    color: #fff;
-    font-size: 25px;
-    margin-bottom: 15px;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.bookshelf{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.isbn{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .authors{
-    color: gray;
-    font-size: 20px;
-    margin-bottom: 30px;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .description{
     width: 80%;
     margin: auto;
-    color: gray;
-    font-size: 20px;
-    margin-bottom: 30px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.div{
+    width: 80%;
+    border: 1px solid black;
+    margin: 115px auto;
+    background: darkgray;
 }
