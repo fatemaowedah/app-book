@@ -25,18 +25,3 @@ img{
     font-size: 20px;
     margin-bottom: 30px;
 }
-.num{
-    font-size: 20px;
-    color: gray;
-}
-
-.hidden{
-    width: 40%;
-    height: 40px;
-    color: #fff;
-    background-color: black;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 20px;
-    margin-top: 20px;
-}

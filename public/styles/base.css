@@ -1,77 +1,24 @@
-/* @media (min-width: 481px) and (max-width: 767px) { */
-    /* header {
-        background-color: black;
-        color: white;
-    } */
-      
-    /* }
-  html{
-      background-color: black;
-  }
-  body {
-      max-width: 490px;
-      background-color: #a7a4a4;
-      margin: auto;
-      height: 100vh;
-  }
-  main {
-      background-color: #a7a4a4;
-      position: relative;
-  } */
-  body{
+body{
     margin: 0 auto;
-    width: 960px;
+    width: 100%;
     height: 100vh;
     background-color: #c5c5c5;
 }
 header{
     margin: auto;
-    width: 960px;
-    height: auto;
-}
-nav{
     width: 100%;
+    height: 33%;
     background-color: black;
-}
-ul{
-    width: 80%;
-    margin: 0 auto;
-}
-ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 20px;
-}
-
-ul li:hover{
-    background-color:black ;
-}
-ul li a{
-    color: #fff;
-    text-decoration: none;
-}
-
-.list{
-    width: 100%;
-    padding: 10px 20px;
-    background-color: black;
-    text-align: right;
-    box-sizing: border-box;
-    color: #fff;
-    font-size: 60px;
-    display: none;
-
 }
 h1{
     text-align: left;
-    font-size: 30px;
+    font-size: 50px;
     color: #fff;
-    background-color: black;
-    margin: auto;
+    margin: 4%;
 }
 main{
     margin: auto;
-    width: 960px;
+    width: 100%px;
     background-color: #c5c5c5;
 }
 .hTow{
@@ -84,25 +31,29 @@ main{
     opacity: .5;
     line-height: 50px;
 }
-h2{
+h2 {
     color: #fff;
-    font-size: 20px;
+    height: 20%;
+    font-size: 40px;
+    text-align: center;
+    background-color: gray;
+    padding: 3%;
 }
 form{
     text-align: center;
-    margin: 0 auto;
+    margin: 88px auto;
 }
 
 .inputOne{
     width: 50%;
-    height: 25px;
+    height: 65px;
     text-align: center;
     border-radius: 10px;
     margin: 10px;
 }
 .inputTowFie{
     width: 50%;
-    height: 25px;
+    height: 65px;
     border-radius: 10px;
     margin: 10px auto;
     text-align: left;
@@ -115,11 +66,12 @@ form{
 }
 button{
     width: 50%;
-    height: 45px;
+    height: 65px;
     color: #fff;
     background-color: black;
     border-radius: 8px;
     cursor: pointer;
+    font-size: 150%;
 }
 
 button:hover{
@@ -137,4 +89,22 @@ ol li{
     box-shadow: 0 0 10px #929292, 0 0 40px #797979, 0 0 80px #737b82;
     height: auto;
     padding: 20px;
+}
+span{
+    font-size: 20px;
+    line-height: 3;
+
+}
+input[type="radio"]{
+    width: 6%;
+    height: 35%;
+}
+input
+{
+    font-size: 158%;
+}
+footer{
+    width: 100%;
+    height: 33%;
+    background-color: black;
 }
