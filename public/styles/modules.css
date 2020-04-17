@@ -1,171 +1,10 @@
-/* h1 {
-    margin: 2% 2%;
-    font-size: 1.3em;
-    padding-bottom: 2%;
-    padding: 2% 0 5% 0;
-}
-input[type="radio"] {
-    float: right;
-    margin-right: 74%;
-    margin-top: 4.5%;
-    background-color: white;
-    color: white;
-    line-height: 35px;
-}
-.fa-primary {
-    color: rgb(245, 253, 253);
-  }
-  .fa-secondary {
-    color: rgb(232, 255, 255);
-  }
-  
-
-  svg {
-    width: 2rem;
-    min-width: 2rem;
-    margin: 0 1.5rem;
-  }
-  .nav {
-    margin-top: 3.5%;
-    cursor: pointer;
-}
-h2 {
-    margin: 0;
-    padding: 4% 0 4% 0;
-    font-size: 0.9em;
-    text-align: center;
-    background: #545454;
-    color: white;
-    margin-bottom: 6%;
-}
-input[type="text"] {
-    padding: 1.5%;
-    margin: 2% 0 2% 0;
-    border-radius: 3px;
-    width: 309px;
-    color: black;
-    font-weight: bold;
-    height: 44px;
-    border: none;
-    box-sizing: border-box;
-}
-
-.footer {
-    background-color: black;
-    width: 100%;
-    margin-bottom: 0;
-    bottom: 0%;
-    margin-top: 8%;
-    height: 65px;
-    position: sticky;
-}
-.footer1 {
-    background-color: black;
-    width: 100%;
-    position: absolute;
-    top: 159.1%;
-    height: 65px;
-}
-img {
-    border: 10px solid white;
-    margin: 1%;
-    width: 150px;
-    height: 212px;
-}
-.container {
-    background-color: rgb(209, 210, 210);
-    margin: auto;
-    padding: 2% 5% 2% 5%;
-    width: 61%;
-    margin-top: 13%;
-    display: flex;
-    border-radius: 2px;
-    box-shadow: 5px 4px 6px grey, inset 2px -4px 6px grey;
-    flex-direction: column;
-    flex-grow: 1;
-    justify-content: center;
-    align-items: center;
-}
-li {
-    list-style: none;
-}
-
-.icon-ello:before {
-    content: "\eab6";
-  }
-
-  .title {
-      color: white;
-      text-shadow: 1px 1px #525050;
-  }
-.auth {
-    margin-bottom: 2%;
-    margin-top: 1%;
-}
-.desc {
-    margin-bottom: 10%;
-}
-.hide {
-    display: none;
-}
-.show {
-    background-color: black;
-    opacity: 0.6;
-    list-style: none;
-    color: white;
-    display: block;
-}
-
-a {
-    text-decoration: none;
-    display: flex;
-    color: black;
-    flex-direction: column;
-    flex-grow: 1;
-    justify-content: center;
-    align-items: center;
-}
-header a{
-    text-decoration: none;
-    color: white;  
-}
-button a{
-    text-decoration: none;
-    color: white;  
-    margin: 2% 0 2% 0;
-}
-button#add {
-    margin-left: 19%;
-}
-textarea {
-    padding: 1.5%;
-    margin: 2% 0 2% 0;
-    border-radius: 3px;
-    width: 309px;
-    color: black;
-    font-weight: bold;
-    height: 44px;
-    border: none;
-    box-sizing: border-box;
-}
-@media (min-width: 320px) and (max-width: 480px) {
-  
-    button:hover {
-        box-shadow: 1px 1px 1px aqua;
-        
-    }
-    p {
-     font-size: 24px;       
-    }
-    
-  } */
-  @media (max-width:768px){
+/* @media (max-width:768px){
     body{
-        height: auto;
+        height: 100%;
         background-color: #c5c5c5;
         justify-content: center;
         /* margin: 0 auto; */
-    }
+    /* }
   header{
       width: auto;
   }
@@ -188,21 +27,21 @@ textarea {
             display: block;
         }
     
-    }
-    h1{
+    } */
+    /* h1{
         text-align: left;
         font-size: 60px;
         color: #fff;
-        background-color: black;
+        background-color: black; */
         /* margin: auto; */
-        height: 70px;
+        /* height: 70px;
         line-height: 70px;
     }
     main{
         background-color: #c5c5c5;
         margin: auto;
         /* width: 960px; */
-    }
+    /* }
 
     .hTow{
         background-color: hsl(240, 5%, 21%);
@@ -240,9 +79,9 @@ textarea {
     }
     span{
         font-size: 30px;
-    }
+    } */ 
 
-    button{
+    /* button{
         width: 70%;
         height: 110px;
         color: #fff;
@@ -256,4 +95,39 @@ textarea {
         color: #fff;
         background-color: #2196f3;
         box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
-    }
+    } */
+    .topnav {
+        overflow: hidden;
+        position: relative;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .topnav a.icon {
+        background: white;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 4%;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+      }
+      
+      .active {
+        color: white;
+        font-size: 20%;
+        text-align: left;
+      }
