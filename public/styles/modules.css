@@ -131,3 +131,21 @@
         font-size: 20%;
         text-align: left;
       }
+      .ff{
+          width: 28%;
+      }
+      .ff input{
+          margin: 20px auto;
+          width: 100%;
+      }
+      .detail{
+        margin: 0px 25%;
+      }
+      .ff select{
+        margin: 20px auto;
+        width: 100%;
+        height: 20%;
+      }
+      .but2{
+        margin: 0px 25%;
+      }

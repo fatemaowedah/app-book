@@ -11,7 +11,7 @@
     </header>
     <main>
     <% data.forEach((val,id) =>{ %>
-    <div>
+    <div class='div'>
         <img class="img" src="<%= val.image %>">
         <h2 class="title"><%= val.title %></h2>
         <ul>
@@ -20,9 +20,9 @@
             <%});%>
         </ul>
         <p class="description"><%= val.description %></p>
-        <button id="<%=id%>">select</button>
+        <button id="<%=id%>" class='but1'>select</button>
     </div>
-    <form action="/" method="POST" id='form<%=id%>'>
+    <form action="/" method="POST" id='form<%=id%>' class='ff'>
         <input type="text" name="image" value="<%= val.image %>">
         <input type="text" name="title" value="<%= val.title %>">
         <%val.authors.forEach(value =>{%>

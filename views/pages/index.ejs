@@ -12,16 +12,16 @@
     <main>
         <h2>Hello World</h2>
         <% data.forEach(val =>{ %>
-        <div>
-            <img src="<%= val.image %>">
-            <h2><%= val.title %></h2>
+        <div class='div'>
+            <img class="img" src="<%= val.image %>">
+            <h2 class="title"><%= val.title %></h2>
             <ul>
                 <%val.authors.forEach(value =>{%>
-                <li><%= value %></li>
+                <li class="authors"><%= value %></li>
                 <%});%>
             </ul>
-            <p><%= val.description %></p>
-            <button><a href="/details/<%=val.id%>"> detials</a></button>
+            <p class="description"><%= val.description %></p>
+            <button class='detail'><a href="/details/<%=val.id%>"> detials</a></button>
         </div>
         <% });%>
 
